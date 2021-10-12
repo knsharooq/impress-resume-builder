@@ -112,7 +112,7 @@ export const ViewResume = () => {
             Download Resume
           </Button>
         </Col>
-        <Col sm={6} className="text-center">
+        <Col sm={6} className="text-center mb-5">
           <Button color="primary" onClick={() => history.push("/")}>
             Create New Resume
           </Button>

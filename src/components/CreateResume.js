@@ -9,7 +9,7 @@ import { useDispatch } from "react-redux";
 import { createResume } from "../actions/resume";
 import { useHistory } from "react-router";
 
-export const EditOrCreateResume = () => {
+export const CreateResume = () => {
   const dispatch = useDispatch();
   const history = useHistory();
   const [resumeData, setResumeData] = useState({

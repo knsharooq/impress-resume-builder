@@ -1,7 +1,7 @@
 
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import './App.css';
-import { EditOrCreateResume } from "./components/EditOrCreateResume";
+import { CreateResume } from "./components/CreateResume";
 import { ViewResume } from "./components/ViewResume";
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <div className="app">
       <BrowserRouter>
           <Switch>
-            <Route path="/" component={EditOrCreateResume} exact />
+            <Route path="/" component={CreateResume} exact />
             <Route path="/view" component={ViewResume} />
           </Switch>
         </BrowserRouter>
