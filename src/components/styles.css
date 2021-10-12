@@ -1,0 +1,13 @@
+.form{
+    background-color: rgba(40, 102, 218, 0.633);
+    color: rgb(254, 255, 246);
+    box-shadow: 2px 4px 4px 2px rgb(216, 207, 207);
+    border-radius: 10px;
+    width: 70vw;
+}
+
+.page{
+    box-shadow: 2px 4px 4px 2px rgb(216, 207, 207);
+    border-radius: 10px;
+    width: 80vw;
+}
